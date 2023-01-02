@@ -256,7 +256,7 @@ body {
     }
 
     header {
-        margin-left: -13px;
+        margin-left: -85px;
     }
 
     .manda_trends {
@@ -268,8 +268,9 @@ body {
     /* Section 1 */
 
     .new_section1 {
-        padding: 2vh;
-        margin-left: 13vh;
+        padding: 6vh;
+        margin-left: -2vh;
+        margin-top: -50px;
     }
 
     .new_section1 p {
@@ -284,11 +285,11 @@ body {
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        margin-left: 15vh;
+        margin-left: 7vh;
     }
 
     .news2 {
-        margin-top: 2vh;
+        margin-top: -3vh;
     }
 
     .news2 a::after {
@@ -297,8 +298,8 @@ body {
         height: 4px;
         background: linear-gradient(to right, #8e2de2, #4a00e0);
         position: absolute;
-        bottom: 4vh;
-        left: 15vh;
+        bottom: 8vh;
+        left: 7vh;
         transition: 0.5s ease-in-out;
     }
 
@@ -321,7 +322,7 @@ body {
     }
 
     .news3 {
-        margin-top: 7vh;
+        margin-top: 3vh;
     }
 
     .news3 a::after {
@@ -330,8 +331,8 @@ body {
         height: 4px;
         background: linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214));
         position: absolute;
-        bottom: -34vh;
-        left: 15vh;
+        bottom: -28vh;
+        left: 7vh;
         transition: 0.5s ease-in-out;
     }
 
@@ -356,17 +357,14 @@ body {
 
     .mandarin_footer img {
         width: 45vh;
-        margin-left: 8vh;
+        margin-left: 1vh;
     }
 
     .copyright {
-        margin-top: 2vh
+        margin-left: 15px;
     }
 
-    .copyright p {
-        margin-left: 5vh;
-    }
-
+   
 }
 
 @media (max-width: 380px) {
@@ -394,8 +392,8 @@ body {
         height: 4px;
         background: linear-gradient(to right, #8e2de2, #4a00e0);
         position: absolute;
-        bottom: 6vh;
-        left: 15vh;
+        bottom: 11vh;
+        left: 7vh;
         transition: 0.5s ease-in-out;
     }
 
@@ -405,8 +403,16 @@ body {
         height: 4px;
         background: linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214));
         position: absolute;
-        bottom: -30vh;
-        left: 15vh;
+        bottom: -23vh;
+        left: 7vh;
         transition: 0.5s ease-in-out;
+    }
+
+    .mandarin_footer {
+        margin-top: 40px;
+    }
+
+    .copyright {
+        margin-left: -15px;
     }
 }
